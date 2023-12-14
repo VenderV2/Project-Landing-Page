@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -11,7 +16,6 @@ body {
     background-color: #1f2937;
     color: white;
     display: flex;
-    flex: 0 1 auto;
     height: 72px;
     justify-content: space-evenly;
     
@@ -20,23 +24,33 @@ body {
 #header {
     flex: 1;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 100px;
 }
 
-ul {
+.right-links {
     list-style-type: none;
     display: flex;
     flex: 1;
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding: 0px;
 
+}
+
+li {
+    margin: 10px;
+    font-size: 14px;
 }
 
 a {
-
+    text-decoration: none;
+    color: white;
 }
+
 
 /* ///////////////////////////////////////////////////////////////////////// */
 .contents {
@@ -45,24 +59,60 @@ a {
     flex-direction: column;
 }
 
+
+
 .title-sec {
     background-color: #1f2937;
     color: white;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: row-reverse;
+    justify-content: center;
 }
 
+.title-contents {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-start;
+    position: relative; top: 70px;
+}
+
+.img {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.text {
+
+}
+
+.sign-up {
+
+}
+
+
 .info {
-    flex: 1;
+    flex: 1 1 auto;
     display: flex;
 }
 
 .quote {
-    flex: 1;
+    flex: 1 1 auto;
     display: flex;
     background-color:  #e5e7eb;
 }
 
 .sign-up-sec {
-    flex: 0.5 1 auto;
+    flex: 1 1 auto;
     display: flex;
 }
 
@@ -70,7 +120,6 @@ a {
 /* ///////////////////////////////////////////////////////////////////////// */
 .footer {
     display: flex;
-    flex: 0 1 auto;
     background-color: #1f2937;
     color: white;
     height: 72px;
