@@ -1,0 +1,17 @@
+[33mcommit 3975aa2fa400aecbb8f7d27c0efba7aca0f0146d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Nikil <nik300601@gmail.com>
+Date:   Thu Dec 14 14:40:03 2023 +0000
+
+    managed to position text without padding and margin
+
+[33mcommit ed2fc7e9e2a5cb3924f7fa34994bf0111d608e9f[m
+Author: Nikil <nik300601@gmail.com>
+Date:   Thu Dec 14 11:58:53 2023 +0000
+
+    Body layout complete
+
+[33mcommit c679c29499ca0852ff49c1827954103456cfab39[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Nikilyourself <86107692+VenderV2@users.noreply.github.com>
+Date:   Thu Dec 14 10:43:00 2023 +0000
+
+    Initial commit
